@@ -27,7 +27,7 @@ public:
 
     CNavigationSystem();
     void run();
-//   void linkPersistence(string const name,CWpDatabase &wpdb, CPoiDatabase &poidb);
+   void linkPersistence(string const name,CWpDatabase &wpdb, CPoiDatabase &poidb);
 
 private:
    string m_name;

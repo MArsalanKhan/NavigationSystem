@@ -30,7 +30,6 @@ public:
 
     void getAllDataByReference(string &name, double &latitude, double &longitude, t_poi &type, string &description) const;
      friend ostream&  operator <<(ostream& out, const CPOI &poi);
-     string getType();
 
 	//CPOI();
 	virtual~CPOI();

@@ -28,8 +28,7 @@ private:
 
     CPoiDatabase* m_pPoiDatabase;
     CWpDatabase* m_pWpDatabase;
-    int m_noWps;
-    int m_noPois;
+
 
 public:
     CRoute();  // Initial values are given to the constructor //
@@ -53,7 +52,7 @@ public:
     //Operator Overloading function declaration.
 
 
-    CRoute operator+(CRoute const& c1);
+    friend CRoute& operator +(CRoute &route1,CRoute &route2);
     CRoute& operator =(const CRoute &origin);
     void operator +=(string name);
 
