@@ -27,12 +27,16 @@ public:
 
     CNavigationSystem();
     void run();
-   void linkPersistence(string const name,CWpDatabase &wpdb, CPoiDatabase &poidb);
+//   void linkPersistence(string const name,CWpDatabase &wpdb, CPoiDatabase &poidb);
 
 private:
    string m_name;
    CWpDatabase m_waypoint;
    CPoiDatabase m_Poi;
+
+
+
+
 
     void enterRoute();
     void printRoute();

@@ -67,8 +67,8 @@ virtual bool writeData (const CWpDatabase& waypointDb, const CPoiDatabase& poiDb
 * @return true if the data could be read successfully
 */
 virtual bool readData (CWpDatabase& waypointDb, CPoiDatabase& poiDb,MergeMode mode) = 0;
-//CPersistentStorage();
-//virtual ~CPersistentStorage();
+CPersistentStorage();
+virtual ~CPersistentStorage();
 
 };
 
